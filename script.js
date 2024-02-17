@@ -6,7 +6,7 @@ const remember = document.querySelector("#remember");
 
 function check() {
 
-    const users = JSON.parse(localStorage.getItem('users'));
+    const users = JSON.parse(localStorage.getItem('users'))  || [];
 
     var userName = document.getElementById('username').value;
     var password= document.getElementById('password').value;
