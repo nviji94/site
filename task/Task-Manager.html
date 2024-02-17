@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="Task-Manager.css">
+  
+    <title>Website</title>
+</head>
+<body>
+    
+<nav>
+        <div class="logo">  
+        <a href="">Website</a>
+        </div>
+       
+        <ul>
+            <li><a href="../home/website/website.html">Home</a></li>
+            <li>
+            <div class="subdropdown">
+            <button class="dropdown-btn"><a href="#">About</a> <i class="fa fa-caret-down"></i></button>
+            <div class="dropdown-content">
+              <a href="../quiz/quiz.html">Quiz</a>
+              <a href="../task/Task-Manager.html">Task-manager</a>
+              <a href="../weather/weather.html">Weather</a>
+            </div>
+            
+          </div>
+          </li>
+            <li><a href="">Gallery</a></li>
+            <li><a href="">Contact</a></li>
+            
+            </ul>
+         
+ </nav>
+ <div class="menu">
+    <div class="menu-line"></div>
+    <div class="menu-line"></div>
+    <div class="menu-line"></div>  
+</div>
+
+
+<div class="banner-container">
+  <div id="quote-container">
+    <h1>Quote For You</h1>
+  
+    <div id="quote-text"></div>
+</div>
+  <a class="banner btn-left"  onclick="getRandomQuote()"><i class="fa fa-caret-left"></i></a>
+  <a class="banner btn-right"  onclick="getRandomQuote()"><i class="fa fa-caret-right"></i></a>
+     <!-- <img src="banner.jpg" alt="banner"/>-->
+</div>
+
+<div id="app">
+  <h1>Task Manager</h1>
+  <div>
+     
+      <input type="text" id="taskName" placeholder="Enter task name">
+      <input type="date" id="dueDate">
+    
+  <button onclick="addTask()">Add Task</button>
+  </div>
+  <div>
+     <input type="text" id="searchInput"  onkeyup="searchInput()" placeholder="Search a task">
+   </div>
+  
+
+  <ul id="taskList"></ul>
+</div>
+
+<div class="footer">
+  <h2>Contact</h2>
+  
+  <div class="footer-content">
+    <p>Let's talk about my website and projects</p>
+  </div>
+    <div class="footer-icons">
+  <a><i class="fa fa-envelope-open"></i>nviji94@gmail.com</a>
+  <br>
+  <a href=""><i class="fa fa-linkedin-square"></i>linkedin.com/in/vijaya-natarajan</a>
+  </div>
+</div>
+<script src="Task-Manager.js"></script>
+
+</body>
+</html>

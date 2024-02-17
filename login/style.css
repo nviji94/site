@@ -1,0 +1,99 @@
+body
+{
+	    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+		background: linear-gradient(90deg, rgba(40,55,151,1) 0%, rgba(70,72,128,1) 35%, rgba(0,244,255,1) 100%); 
+	
+  
+}
+.login
+{
+   
+   width:300px;
+   background-color: #fff;
+    color: #000;
+    font-size: 20px;
+    margin: 250px auto;
+    border-radius:5px;
+    padding: 10px 20px 30px;
+	
+	
+}
+
+
+.login h3
+{
+	 color:#283797;
+	 text-align: center;
+}
+
+.login label
+{
+	display: block;
+}
+
+.input-group input
+{
+	width:100%;
+	border:1px solid;
+    font-size:1.2em;
+	box-sizing:border-box;
+	border-radius:8px;
+    margin: 5px 0px 15px;
+	padding: 10px 10px;
+	Box-shadow:2px;
+  
+}
+
+
+.checkbox input
+{
+	transform:scale(1.5);
+	 -ms-transform: scale(1.5); /* IE */
+  -moz-transform: scale(1.5); /* FF */
+ 
+}
+.checkbox b
+{
+	padding:10px 10px 10px;
+}
+.input-group input:focus
+{
+	 
+	  outline:0;
+}
+.btn{
+	text-align: center;
+	
+	
+	
+}
+Button
+{
+	font-size:16px;
+	box-sizing:border-box;
+	border-radius:4px;
+    margin-top:20px;
+	padding: 15px 25px;
+	color: #fff;
+	font-weight:500;
+	background:#283797;
+	border: none;
+}
+button a{
+	color:#fff;
+	text-decoration: none;
+}
+
+.input-group.error{
+	color:rgb(242, 18, 18);
+	margin-top:5px;
+	font-size:16px;
+}
+.input-group .success input
+{
+	border-color:#008000;
+}
+.input-group .error input
+{
+	border-color:#ff0000;
+}
