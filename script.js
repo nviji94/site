@@ -13,7 +13,7 @@ function check() {
     const filteredUser = users.find((user) => user.email == userName);
     if(filteredUser){
         if(filteredUser.password == password){
-            window.location.href = "../home/website/website.html";
+            window.location.href = "home/website/website.html";
             //alert("Welcome "+ filteredUser.username);
             return false;
         } else{
